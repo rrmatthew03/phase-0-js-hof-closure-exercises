@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 17,
-    "start": "2022-04-06T16:29:23.347Z",
-    "end": "2022-04-06T16:29:26.197Z",
-    "duration": 2850
+    "start": "2022-04-11T01:54:55.416Z",
+    "end": "2022-04-11T01:54:57.238Z",
+    "duration": 1822
   },
   "tests": [
     {
@@ -33,7 +33,7 @@
     {
       "title": "applies calback to all elements in the new array",
       "fullTitle": "index.js map applies calback to all elements in the new array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to be an array",
@@ -62,7 +62,7 @@
     {
       "title": "returns true when the callback returns true for all elements",
       "fullTitle": "index.js every returns true when the callback returns true for all elements",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to be true",
@@ -74,7 +74,7 @@
     {
       "title": "returns false when the callback doesn't return true for all elements",
       "fullTitle": "index.js every returns false when the callback doesn't return true for all elements",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to be false",
@@ -86,7 +86,7 @@
     {
       "title": "returns true when the callback returns true for at least one element",
       "fullTitle": "index.js some returns true when the callback returns true for at least one element",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to be true",
@@ -98,7 +98,7 @@
     {
       "title": "returns false when the callback doesn't return true for any elements",
       "fullTitle": "index.js some returns false when the callback doesn't return true for any elements",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to be false",
@@ -193,7 +193,7 @@
     {
       "title": "group array items together based on the callback return value",
       "fullTitle": "index.js groupBy group array items together based on the callback return value",
-      "duration": 2,
+      "duration": 14,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to deeply equal { '4': [ 4.2 ], '6': [ 6.1, 6.3 ] }",
@@ -213,7 +213,7 @@
     {
       "title": "returns an object",
       "fullTitle": "index.js arrayToObject returns an object",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to be an object",
@@ -256,7 +256,7 @@
     {
       "title": "applies calback to all elements in the new array",
       "fullTitle": "index.js map applies calback to all elements in the new array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to be an array",
@@ -278,7 +278,7 @@
     {
       "title": "returns true when the callback returns true for all elements",
       "fullTitle": "index.js every returns true when the callback returns true for all elements",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to be true",
@@ -290,7 +290,7 @@
     {
       "title": "returns false when the callback doesn't return true for all elements",
       "fullTitle": "index.js every returns false when the callback doesn't return true for all elements",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to be false",
@@ -302,7 +302,7 @@
     {
       "title": "returns true when the callback returns true for at least one element",
       "fullTitle": "index.js some returns true when the callback returns true for at least one element",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to be true",
@@ -314,7 +314,7 @@
     {
       "title": "returns false when the callback doesn't return true for any elements",
       "fullTitle": "index.js some returns false when the callback doesn't return true for any elements",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to be false",
@@ -409,7 +409,7 @@
     {
       "title": "group array items together based on the callback return value",
       "fullTitle": "index.js groupBy group array items together based on the callback return value",
-      "duration": 2,
+      "duration": 14,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to deeply equal { '4': [ 4.2 ], '6': [ 6.1, 6.3 ] }",
@@ -429,7 +429,7 @@
     {
       "title": "returns an object",
       "fullTitle": "index.js arrayToObject returns an object",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to be an object",
